@@ -31,10 +31,8 @@ Password-lock is a python application that generates, saves and manages user's p
 
 ### Support and contact details
 
+* Emal : maxwell.munene@student.moringaschool.com
 
-* [email](maxwell.munene@student.moringaschool.com)
-
-### License
 ### License.
 {MIT License
 
