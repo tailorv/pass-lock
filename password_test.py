@@ -12,7 +12,7 @@ class TestClass(unittest.TestCase):
         '''
         Function to test whether the login in function check_user works as expected
         '''
-        self.new_user = User('maxwell, 'munene', '2021')
+        self.new_user = User('maxwell', 'munene', '2021')
         self.new_user.save_user()
         user2 = User('fundi', 'technology', '2021')
         user2.save_user()

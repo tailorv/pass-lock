@@ -1,7 +1,4 @@
-#!/usr/bin/env python3.9
-# import hashlib
-# import binascii
-# import os
+
 import random
 import string
 from password import User
@@ -77,7 +74,7 @@ def check_existing_password(password):
 
 
 def main():
-    print("Welcome to locka the password locker of your choice")
+    print("Welcome to passwordlocker the password locker of your choice")
     print("What is your name?")
     name = input("Name: ")
     print(f"Hi {name}!")
@@ -132,8 +129,7 @@ def main():
                 temp = random.sample(all, length)
                 password = "".join(temp)
 
-                # all = string.ascii_letters + string.digits + string.punctuation
-                # pass = "".join(random.sample(all,length))
+              
 
                 print(f"Your new username is {username}")
                 print(f"Your website is {website}")
